@@ -1,0 +1,22 @@
+site_name: Portfolio
+
+site_author: Jarosław Dulian
+
+theme:
+  name: material
+  palette:
+    primary: light blue
+
+site_description: >-
+    Portfolio moich projektów z Data Science i AI!
+
+
+nav:
+- Home Page: index.md
+- Obecny projekt:
+  - "nazwa": nazwa/index.md
+- Poprzednie projekty:
+  - "Iris": iris/index.md
+  - "Titanic": titanic/index.md
+  - "nazwa": nazwa/index.md
+  - "nazwa": nazwa/index.md
