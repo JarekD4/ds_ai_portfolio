@@ -1,4 +1,4 @@
-# Fascynująca Analiza Danych EDA Irysów: Eksploracja Domenowa
+# Analiza Danych EDA Irysów: Eksploracja Domenowa
 
 ** 2024-10-01**
 

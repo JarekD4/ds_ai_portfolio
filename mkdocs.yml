@@ -2,6 +2,13 @@ site_name: Portfolio
 
 site_author: Jarosław Dulian
 
+
+repo_name: JarekD4/ds_ai_portfolio
+repo_url: https://github.com/JarekD4/ds_ai_portfolio
+
+
+
+
 theme:
   name: material
   palette:
