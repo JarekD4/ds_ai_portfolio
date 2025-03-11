@@ -20,10 +20,15 @@ site_description: >-
 
 nav:
 - Home Page: index.md
-- Obecny projekt:
-  - "nazwa": nazwa/index.md
-- Poprzednie projekty:
+- Current project:
+  - "visualization": visualization/index.md
+- Previous projects:
   - "Iris": iris/index.md
   - "Titanic": titanic/index.md
-  - "nazwa": nazwa/index.md
-  - "nazwa": nazwa/index.md
+  - "Audio Notes": audio_notes/index.md
+  - "Find Friends": find_friends/index.md
+  - "Halfmarathon Estimator": halfmarathon_estimator/index.md
+  - "Welcome Survey": welcome_survey/index.md
+  - "My Chatbot": my_chatbot/index.md
+  - "Features Detective": features_detective/index.md
+ 
