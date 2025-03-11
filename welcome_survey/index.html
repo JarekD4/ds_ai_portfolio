@@ -13,10 +13,10 @@
       
       
       
-        <link rel="prev" href="../visualization/">
+        <link rel="prev" href="../halfmarathon_estimator/">
       
       
-        <link rel="next" href="../titanic/">
+        <link rel="next" href="../my_chatbot/">
       
       
       <link rel="icon" href="../assets/images/favicon.png">
@@ -24,7 +24,7 @@
     
     
       
-        <title>Iris - Portfolio</title>
+        <title>Welcome Survey - Portfolio</title>
       
     
     
@@ -74,7 +74,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#domain-exploration-eda-of-the-dataset-irisesa" class="md-skip">
+        <a href="#welcome-survey-app" class="md-skip">
           Skip to content
         </a>
       
@@ -110,7 +110,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Iris
+              Welcome Survey
             
           </span>
         </div>
@@ -348,19 +348,10 @@
                 
   
   
-    
   
   
-  
-    <li class="md-nav__item md-nav__item--active">
-      
-      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
-      
-      
-        
-      
-      
-      <a href="./" class="md-nav__link md-nav__link--active">
+    <li class="md-nav__item">
+      <a href="../iris/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -370,7 +361,6 @@
   
 
       </a>
-      
     </li>
   
 
@@ -468,10 +458,19 @@
                 
   
   
+    
   
   
-    <li class="md-nav__item">
-      <a href="../welcome_survey/" class="md-nav__link">
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
         
   
   <span class="md-ellipsis">
@@ -481,6 +480,7 @@
   
 
       </a>
+      
     </li>
   
 
@@ -574,31 +574,26 @@
   
 
 
-<h1 id="domain-exploration-eda-of-the-dataset-irisesa">Domain exploration (EDA) of the dataset: Irisesa</h1>
-<p>2024-10-01</p>
-<p><strong> Introduction: </strong>
-I invite you to familiarize yourself with my project, which takes us into the world of data analysis on Irises - using domain exploration (EDA). In this project, you will find many pertinent conclusions and interesting observations that shed new light on these beautiful flowers. Prepare yourself for a fascinating journey through data, which will certainly enrich your knowledge and inspire you to further research.</p>
-<p><a href="iris.ipynb" class="md-button md-button--primary">Pobierz Notebook</a></p>
-<p><iframe
-    id="content"
-    src="iris.html"
-    width="100%"
-    style="border:1px solid black;overflow:hidden;"
-></iframe></p>
-<script>
-function resizeIframeToFitContent(iframe) {
-    iframe.style.height = (iframe.contentWindow.document.documentElement.scrollHeight + 50) + "px";
-    iframe.contentDocument.body.style["overflow"] = 'hidden';
-}
-window.addEventListener('load', function() {
-    var iframe = document.getElementById('content');
-    resizeIframeToFitContent(iframe);
-});
-window.addEventListener('resize', function() {
-    var iframe = document.getElementById('content');
-    resizeIframeToFitContent(iframe);
-});
-</script>
+<h1 id="welcome-survey-app">Welcome Survey App</h1>
+<p>2024-11-03</p>
+<p><strong> Project description: </strong>
+The aim of the project was to create an application that would allow for simple filtering and browsing of data from a sample welcome survey (the data was appropriately anonymized).
+The aim of the application was to consolidate components from the Streamlit library and familiarize users with the proper management of the application state (st.session_state) so that all buttons and interactions were responsive to each other.</p>
+<p><strong> Main functionalities: </strong>
+- the ability to browse an anonymous survey to familiarize yourself with the Streamlit interface,
+- various types of filters allow you to get to know the analyzed data in more detail,
+- visualizations are also included the application also contains interesting visualizations and for the most persistent - curiosities await!</p>
+<p><strong> Skills: </strong>
+- Python,
+- Pandas,
+- Matplotlib,
+- Seaborn,
+- Streamlit,
+- Boto3.</p>
+<p>The application has been deployed on the Streamlit Community App and is available for public use.</p>
+<p>Link do repository: https://github.com/JarekD4/app_friends
+Link do app: https://app-friends-jd.streamlit.app/</p>
+<p><a href="welcome survey.pdf" class="md-button md-button--primary">Pobierz Notebook</a></p>
 
 
 

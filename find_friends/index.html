@@ -13,10 +13,10 @@
       
       
       
-        <link rel="prev" href="../visualization/">
+        <link rel="prev" href="../audio_notes/">
       
       
-        <link rel="next" href="../titanic/">
+        <link rel="next" href="../halfmarathon_estimator/">
       
       
       <link rel="icon" href="../assets/images/favicon.png">
@@ -24,7 +24,7 @@
     
     
       
-        <title>Iris - Portfolio</title>
+        <title>Find Friends - Portfolio</title>
       
     
     
@@ -74,7 +74,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#domain-exploration-eda-of-the-dataset-irisesa" class="md-skip">
+        <a href="#find-friends-app" class="md-skip">
           Skip to content
         </a>
       
@@ -110,7 +110,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Iris
+              Find Friends
             
           </span>
         </div>
@@ -348,19 +348,10 @@
                 
   
   
-    
   
   
-  
-    <li class="md-nav__item md-nav__item--active">
-      
-      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
-      
-      
-        
-      
-      
-      <a href="./" class="md-nav__link md-nav__link--active">
+    <li class="md-nav__item">
+      <a href="../iris/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -370,7 +361,6 @@
   
 
       </a>
-      
     </li>
   
 
@@ -424,10 +414,19 @@
                 
   
   
+    
   
   
-    <li class="md-nav__item">
-      <a href="../find_friends/" class="md-nav__link">
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
         
   
   <span class="md-ellipsis">
@@ -437,6 +436,7 @@
   
 
       </a>
+      
     </li>
   
 
@@ -574,31 +574,26 @@
   
 
 
-<h1 id="domain-exploration-eda-of-the-dataset-irisesa">Domain exploration (EDA) of the dataset: Irisesa</h1>
-<p>2024-10-01</p>
-<p><strong> Introduction: </strong>
-I invite you to familiarize yourself with my project, which takes us into the world of data analysis on Irises - using domain exploration (EDA). In this project, you will find many pertinent conclusions and interesting observations that shed new light on these beautiful flowers. Prepare yourself for a fascinating journey through data, which will certainly enrich your knowledge and inspire you to further research.</p>
-<p><a href="iris.ipynb" class="md-button md-button--primary">Pobierz Notebook</a></p>
-<p><iframe
-    id="content"
-    src="iris.html"
-    width="100%"
-    style="border:1px solid black;overflow:hidden;"
-></iframe></p>
-<script>
-function resizeIframeToFitContent(iframe) {
-    iframe.style.height = (iframe.contentWindow.document.documentElement.scrollHeight + 50) + "px";
-    iframe.contentDocument.body.style["overflow"] = 'hidden';
-}
-window.addEventListener('load', function() {
-    var iframe = document.getElementById('content');
-    resizeIframeToFitContent(iframe);
-});
-window.addEventListener('resize', function() {
-    var iframe = document.getElementById('content');
-    resizeIframeToFitContent(iframe);
-});
-</script>
+<h1 id="find-friends-app">Find Friends App</h1>
+<p>2024-11-15</p>
+<p><strong> Project description: </strong>
+The aim of the project was to create an application that would enable the use of a clustering model to match a user to the appropriate group from a loaded data set (data comes from an anonymized survey) - based on data provided by the user.</p>
+<p><strong> Main functionalities: </strong>
+- the user filters basic data, such as: age, education, gender, favorite animals or favorite places - corresponding to their preferences,
+- then the previously trained clustering model creates the appropriate number of clusters for the survey data and matches the user's preferences to the matching group,
+- finally, using LLM, adequate cluster descriptions are generated.</p>
+<p><strong> Skills: </strong>
+- Python,
+- Langfuse,
+- OpenAI,
+- Streamlit,
+- Scikit-learn,
+- Plotly,
+- PyCaret (Clustering),
+- NumPy,
+- Matplotlib.</p>
+<p>The application has been deployed on the Streamlit Community App and is available for public use.</p>
+<p>Link do repository: https://github.com/JarekD4/ankieta_powitalna</p>
 
 
 
