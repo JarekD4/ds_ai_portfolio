@@ -37,7 +37,7 @@
 }
 
 .project-btn:hover {
-  background-color: #005fa3;   /* ciemniejszy niebieski po najechaniu */
+  background-color: #005fa3;   /* ciemniejszy  niebieski po najechaniu */
   transform: scale(1.05);
 }
 
